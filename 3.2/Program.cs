@@ -25,7 +25,7 @@ namespace _3._2
                     break;
                 case 2:
                     Console.WriteLine("Até breve!");
-                    controleFluxo = true;
+                    controleFluxo = false;
                     break;
                 case 3:
                     Console.Clear();

@@ -14,7 +14,8 @@
             Modelo = _modelo;
             Marca = _marca;
             Ano = ano;
-            Placa = _placa;  
+            Placa = _placa; 
+            QuantidadeAssentos = _quantidadeAssentos;
         }
 
         public override string ToString()

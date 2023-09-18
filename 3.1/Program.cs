@@ -19,17 +19,17 @@ namespace _3._1
                 case 1:
                     Console.WriteLine("\nCargo: Assistente");
                     Assistente assistente = new("Paulo", 1000);
-                    Console.WriteLine(assistente.ToString());
+                    Console.WriteLine($"{assistente:C}");
                     break;
                 case 2:
                     Console.WriteLine("\nCargo: Analista");
                     Analista analista = new("Maria", 1000);
-                    Console.WriteLine(analista.ToString());
+                    Console.WriteLine($"{analista:C}");
                     break;
                 case 3:
                     Console.WriteLine("\nCargo: Especialista");
                     Especialista especialista = new("Ana", 1000);
-                    Console.WriteLine(especialista.ToString());
+                    Console.WriteLine($"{especialista:C}");
                     break;
                 case 4:
                     Console.Clear();

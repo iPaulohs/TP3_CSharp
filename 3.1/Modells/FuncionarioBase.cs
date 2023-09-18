@@ -19,7 +19,7 @@
 
         public override string ToString()
         {
-            return $"Nome do funcionário: {Nome}\nValor da venda: R${ValorVenda}\nValor da comissão: {CalculaComissao(ValorVenda, PorcentagemComissao)}\n";
+            return $"Nome do funcionário: {Nome}\nValor da venda: R${ValorVenda:C}\nValor da comissão: {CalculaComissao(ValorVenda, PorcentagemComissao):C}\n";
         }
     }
 }
