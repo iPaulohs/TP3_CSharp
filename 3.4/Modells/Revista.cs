@@ -1,8 +1,6 @@
-﻿using _3._4.Interfaces;
-
-namespace _3._4.Modells
+﻿namespace _3._4.Modells
 {
-    internal class Revista : Publicacao
+    internal class Revista : PublicacaoBase
     {
         internal new int TempoParaEntrega = 15;
 
